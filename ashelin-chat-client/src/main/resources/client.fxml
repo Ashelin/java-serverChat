@@ -10,7 +10,15 @@
 <?import javafx.scene.control.TextField?>
 
 
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
 <VBox fx:controller="com.ashelin.chat.client.Controller" xmlns:fx="http://javafx.com/fxml">
+    <MenuBar>
+        <Menu text="Program">
+             <MenuItem text="Logout" onAction="#exitAction"></MenuItem>
+        </Menu>
+    </MenuBar>
     <TextArea fx:id ="mainArea" editable="false" VBox.vgrow="ALWAYS"/>
     <HBox>
         <TextField fx:id ="msgField" HBox.hgrow="ALWAYS" promptText="Enter text..." onAction="#sendMsgAction"/>

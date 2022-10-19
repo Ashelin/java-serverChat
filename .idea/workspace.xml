@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Adding ChangeName">
+    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Adding server notifications to chat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ashelin.chat.client.Main" />
@@ -149,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666193785352</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding server notifications to chat">
+      <created>1666194359466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666194359466</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +180,7 @@
     <MESSAGE value="Callbacks" />
     <MESSAGE value="Creating ClientHandler" />
     <MESSAGE value="Adding ChangeName" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding ChangeName" />
+    <MESSAGE value="Adding server notifications to chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding server notifications to chat" />
   </component>
 </project>
