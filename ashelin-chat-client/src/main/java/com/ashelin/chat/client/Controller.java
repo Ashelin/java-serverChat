@@ -18,7 +18,9 @@ public class Controller  implements Initializable {
     TextArea mainArea;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        network = new Network();
+        network = new Network((args) -> {
+            mainArea.appendText((String)args[0]);
+        });
     }
 
 

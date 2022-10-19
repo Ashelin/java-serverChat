@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Create javaFX interface for client">
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="client configuratuion">
+      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/CallBack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/ServerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,20 +38,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ashelin.chat.client.Main" />
       <module name="ashelin-chat-client" />
       <extension name="coverage">
@@ -76,6 +77,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ServerApp" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -120,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666189350238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="client configuratuion">
+      <created>1666190730233</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666190730233</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +150,7 @@
     <MESSAGE value="Creating project and creating server" />
     <MESSAGE value="Creating MainHandler" />
     <MESSAGE value="Create javaFX interface for client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create javaFX interface for client" />
+    <MESSAGE value="client configuratuion" />
+    <option name="LAST_COMMIT_MESSAGE" value="client configuratuion" />
   </component>
 </project>
