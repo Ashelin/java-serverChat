@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Callbacks">
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/ClientHandler.java" afterDir="false" />
+    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Creating ClientHandler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666192966721</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creating ClientHandler">
+      <created>1666193475476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666193475476</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +162,7 @@
     <MESSAGE value="Create javaFX interface for client" />
     <MESSAGE value="client configuratuion" />
     <MESSAGE value="Callbacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Callbacks" />
+    <MESSAGE value="Creating ClientHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating ClientHandler" />
   </component>
 </project>

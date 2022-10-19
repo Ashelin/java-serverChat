@@ -23,6 +23,12 @@ public class MainHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
+        if(s.startsWith("/")){
+            if(s.startsWith("/changename")) {
+                clientName = s.split("\\s", 2)[1];
+            }
+            return;
+        }
         System.out.println("New Message " + s);
         String out = String.format("[%s]: %s\n", clientName, s);
         for(Channel c : channeLs) {
@@ -33,7 +39,8 @@ public class MainHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        cause.printStackTrace();
+        System.out.println("Client " + clientName + "leaved");
+        channeLs.remove(ctx.channel());
         ctx.close();
     }
 }
