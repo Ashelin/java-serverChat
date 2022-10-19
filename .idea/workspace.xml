@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/ServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Creating project and creating server">
+      <change afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/MainHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +52,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666178502340</updated>
     </task>
+    <task id="LOCAL-00001" summary="Creating project and creating server">
+      <created>1666184657840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666184657840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating project and creating server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating project and creating server" />
   </component>
 </project>
