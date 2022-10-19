@@ -1,0 +1,19 @@
+<?import javafx.geometry.Insets ?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+
+
+<VBox fx:controller="com.ashelin.chat.client.Controller" xmlns:fx="http://javafx.com/fxml">
+    <TextArea fx:id ="mainArea" editable="false" VBox.vgrow="ALWAYS"/>
+    <HBox>
+        <TextField fx:id ="msgField" HBox.hgrow="ALWAYS" promptText="Enter text..."/>
+        <Button text="Send"/>
+    </HBox>
+</VBox>
