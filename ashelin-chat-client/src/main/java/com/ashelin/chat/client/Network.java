@@ -10,14 +10,12 @@ import io.netty.handler.codec.string.StringEncoder;
 
 public class Network {
     private SocketChannel channel;
-    private CallBack onMessageReceivedCallback;
 
     private static final String HOST = "localhost";
     private static final int PORT = 8189;
 
     public Network(CallBack onMessageReceivedCallback){
-        this.onMessageReceivedCallback = onMessageReceivedCallback;
-        new Thread(() -> {
+       Thread t = new Thread(() -> {
             EventLoopGroup workerGroup = new NioEventLoopGroup();
             try {
                 Bootstrap b = new Bootstrap();
@@ -27,16 +25,7 @@ public class Network {
                             @Override
                             protected void initChannel(SocketChannel socketChannel) throws Exception {
                                 channel = socketChannel;
-                                socketChannel.pipeline().addLast(new StringDecoder(), new StringEncoder(),
-                                        new SimpleChannelInboundHandler<String>()   {
-                                            @Override
-                                            protected void channelRead0(ChannelHandlerContext channelHandlerContext, String s) throws Exception {
-                                                if(onMessageReceivedCallback != null ) {
-                                                    onMessageReceivedCallback.callback(s);
-                                                }
-                                            }
-                                        }
-                                );
+                                socketChannel.pipeline().addLast(new StringDecoder(), new StringEncoder(), new ClientHandler(onMessageReceivedCallback));
                             }
                         });
                 ChannelFuture future = b.connect(HOST, PORT).sync();
@@ -47,7 +36,9 @@ public class Network {
                 workerGroup.shutdownGracefully();
             }
 
-        }).start();
+        });
+       t.setDaemon(true);
+       t.start();
     }
 
     public void sendMessage(String str) {
