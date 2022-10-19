@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="    Creating MainHandler">
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" afterDir="false" />
+    <list default="true" id="a2630f0c-6c50-4b8b-8156-a13df5893739" name="Changes" comment="Create javaFX interface for client">
+      <change afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/java/com/ashelin/chat/client/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-client/src/main/resources/client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ashelin-chat-server/src/main/java/com/ashelin/chat/server/ServerApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +45,44 @@
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashelin.chat.client.Main" />
+      <module name="ashelin-chat-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ashelin.chat.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ashelin.chat.server.ServerApp" />
+      <module name="ashelin-chat-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ashelin.chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ServerApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666187264535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create javaFX interface for client">
+      <created>1666189350238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189350238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating project and creating server" />
     <MESSAGE value="Creating MainHandler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating MainHandler" />
+    <MESSAGE value="Create javaFX interface for client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create javaFX interface for client" />
   </component>
 </project>

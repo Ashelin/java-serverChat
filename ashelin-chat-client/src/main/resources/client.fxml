@@ -13,7 +13,7 @@
 <VBox fx:controller="com.ashelin.chat.client.Controller" xmlns:fx="http://javafx.com/fxml">
     <TextArea fx:id ="mainArea" editable="false" VBox.vgrow="ALWAYS"/>
     <HBox>
-        <TextField fx:id ="msgField" HBox.hgrow="ALWAYS" promptText="Enter text..."/>
-        <Button text="Send"/>
+        <TextField fx:id ="msgField" HBox.hgrow="ALWAYS" promptText="Enter text..." onAction="#sendMsgAction"/>
+        <Button text="Send" onAction="#sendMsgAction"/>
     </HBox>
 </VBox>

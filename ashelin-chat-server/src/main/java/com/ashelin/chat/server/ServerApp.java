@@ -9,6 +9,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
 public class ServerApp {
+    private static final int PORT = 8189;
     public static void main(String[] args) {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
@@ -22,7 +23,7 @@ public class ServerApp {
                             socketChannel.pipeline().addLast(new MainHandler());
                         }
                     });
-            ChannelFuture future = b.bind(8189).sync();
+            ChannelFuture future = b.bind(PORT).sync();
             future.channel().closeFuture().sync();
 
         } catch (Exception e) {
